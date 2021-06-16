@@ -1,0 +1,45 @@
+numMeses: número de meses
+numVeg: número de aceites vegetales
+numNoVeg: número de aceites no vegetales
+maxV
+maxN
+valor
+mCap
+CA
+minD
+maxD
+minB
+ 
+coste_mes0_aceite0 coste_mes0_aceite1 ...... coste_mes0_aceiteN
+coste_mes1_aceite0 coste_mes1_aceite1 ...... coste_mes1_aceiteN
+..........
+..........		
+coste_mesM_aceite0 coste_mesM_aceite1 ...... coste_mesM_aceiteN
+
+dureza_aceite0 dureza_aceite1 .............. dureza_aceiteN
+
+excedente_aceite0 excedente_aceite1 .............. excedente_aceiteN
+
+K
+T
+
+dependencias:
+aceite0  aceiteX aceiteY
+aceite1
+aceite2  aceiteZ
+...
+...
+aceiteN aceiteZ
+
+minComprar:
+minComprar_aceite0  minComprar_aceite1 ............... minComprar_aceiteN
+
+minProduccion: minimo que se debe refinar cada mes 
+
+incompatibilidad:
+aceite0  aceiteX aceiteY
+aceite1
+aceite2  aceiteZ
+...
+...
+aceiteN aceiteZ

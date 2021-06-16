@@ -1,0 +1,27 @@
+%mas aceites
+numMeses = 4;
+tipoAceite = {veg1, veg2, veg3, anv1, anv2, anv3};
+numVeg = 3;
+numNoVeg = 3;
+
+coste = array2d(1..numMeses, 1..numAceite,   [110, 120, 110, 130, 110, 115,     120, 130, 130, 110, 90, 115,
+110, 140, 130, 100, 95, 80,      120, 110, 120, 120, 125, 100 ]);
+
+dureza = [8.0, 6.1, 2.8, 4.3, 5.1, 4.9];
+maxV=250;
+maxN=250;
+valor=230;
+mCap=1500;
+CA=5;
+minD=3;
+maxD=7;
+excedente=[100, 150, 200, 120, 170, 120];
+minB=119000;
+
+%extra
+minComprar = [150,120,100,100,100, 100]; 
+minProduccion = 300;
+K = 5;
+T = 50;
+obligacionMezcla = [{3},{},{},{},{},{3}];
+incombinables = [{},{},{},{},{}, {}];

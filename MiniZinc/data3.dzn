@@ -1,0 +1,26 @@
+numMeses = 2;
+%siempre primero todos los vegetales
+tipoAceite = {veg1, veg2, anv1, anv2, anv3};
+numVeg = 2;
+numNoVeg = 3;
+
+coste = array2d(1..numMeses, 1..numAceite,   [11, 12, 13, 11, 11,      10, 9, 8, 9, 10   ]);
+
+dureza = [9.0, 6.0, 2.0, 4.0, 5.0];
+maxV=200;
+maxN=250;
+valor=150;
+mCap=1000;
+CA=3;
+minD=3;
+maxD=6;
+excedente=[40, 30, 60, 50, 20];
+minB=90000;
+
+%extra
+minComprar = [0,0,0,0,0];  
+minProduccion = 250;
+K = 5;
+T=0;
+obligacionMezcla = [{},{},{},{},{}];
+incombinables = [{},{},{},{},{}];

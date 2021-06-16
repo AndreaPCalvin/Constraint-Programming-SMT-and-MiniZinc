@@ -1,0 +1,28 @@
+numMeses = 9;
+tipoAceite = {veg1, veg2, anv1, anv2, anv3};
+numVeg = 2;
+numNoVeg = 3;
+
+coste = array2d(1..numMeses, 1..numAceite,   [110, 120, 130, 110, 115,      130, 130, 110, 90, 115,
+110, 140, 130, 100, 95,       120, 110, 120, 120, 125,      100, 120, 150, 110, 105,
+90, 100, 140, 80, 135,        110, 120, 130, 110, 115,      110, 120, 130, 110, 115, 
+110, 120, 130, 110, 115 ]);
+
+dureza = [8.0, 6.0, 2.0, 4.0, 5.0];
+maxV=250;
+maxN=250;
+valor=190;
+mCap=1500;
+CA=5;
+minD=3;
+maxD=7;
+excedente=[100, 50, 70, 20, 75];
+minB=180000;
+
+%extra
+minComprar = [150,120,200,100,100]; 
+minProduccion = 300;
+K = 5;
+T = 10;
+obligacionMezcla = [{3},{},{},{},{}];
+incombinables = [{},{},{},{5},{4}];
